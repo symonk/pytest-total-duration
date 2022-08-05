@@ -5,6 +5,9 @@ version = "0.1.0"
 description = "A pytest plugin that captures total duration of each item"
 authors = ["symonk <jackofspaces@gmail.com>"]
 
+[tool.poetry.plugins.pytest11]
+pytest_total_duration = "pytest_total_duration.plugin"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 pytest = "7.1.2"
