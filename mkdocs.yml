@@ -1,5 +1,5 @@
-site_name: Inertia
-site_description: Automation framework for modern web applications.
+site_name: pytest_total_duration
+site_description: A pytest plugin to capture full item durations
 site_url:
 theme:
   name: material
@@ -13,8 +13,8 @@ theme:
     code: Work Sans
   icon:
     repo: fontawesome/brands/git
-repo_name: symonk/inertia
-repo_url: https://github.com/symonk/inertia/
+repo_name: symonk/pytest_total_duration
+repo_url: https://github.com/symonk/pytest_total_duration/
 edit_uri: ""
 
 nav:
@@ -35,7 +35,7 @@ plugins:
               show_source: false
               docstring_section_style: table
         watch:
-          - inertia/
+          - pytest_total_duration/
 markdown_extensions:
   - admonition
   - attr_list
